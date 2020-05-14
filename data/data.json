@@ -1,0 +1,391 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hai",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "placement Btech",
+        "intent": "placement",
+        "entities": []
+
+      },
+      {
+        "text": "faculty",
+        "intent": "facultyd",
+        "entities": []
+
+      },
+      {
+        "text": "faculty room",
+        "intent": "facultyd",
+        "entities": []
+
+      },
+      {
+        "text": "details about faculties",
+        "intent": "facultyd",
+        "entities": []
+
+      },
+      {
+        "text": "Sruthi N Paul of cse department",
+        "intent": "facultyd",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "sruthi",
+            "entity": "faculty"
+          }
+        ]
+      },
+      {
+        "text": "Sruthi N Paul ",
+        "intent": "facultyd",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "sruthi",
+            "entity": "faculty"
+          }
+        ]
+      },
+      {
+        "text": "About",
+        "intent": "About",
+        "entities": []
+
+      },
+      {
+        "text": "nitc",
+        "intent": "About",
+        "entities": []
+
+      },
+      {
+        "text": "college timing",
+        "intent": "time",
+        "entities": []
+
+      },
+      {
+        "text": "time",
+        "intent": "time",
+        "entities": []
+
+      },
+      {
+        "text": "Working time",
+        "intent": "time",
+        "entities": []
+
+      },
+      {
+        "text": "Tell me about college",
+        "intent": "About",
+        "entities": []
+
+      },
+      {
+        "text": "Tell me about Nitc",
+        "intent": "About",
+        "entities": []
+
+      },
+      {
+        "text": "placement Mtech",
+        "intent": "placement",
+        "entities": []
+
+      },
+      {
+        "text": "placement",
+        "intent": "placement",
+        "entities": []
+      },
+      {
+        "text": "college placement",
+        "intent": "placement",
+        "entities": []
+      },
+      {
+        "text": "placements of cse",
+        "intent": "placement",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "cse",
+            "entity": "branch"
+          }
+        ]
+      },
+      {
+        "text": "placements of ece",
+        "intent": "placement",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "ece",
+            "entity": "branch"
+          }
+        ]
+      },
+      {
+        "text": "placement cse",
+        "intent": "placement",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "cse",
+            "entity": "branch"
+          }
+        ]
+      },
+      {
+        "text": "placement ece",
+        "intent": "placement",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "ece",
+            "entity": "branch"
+          }
+        ]
+      },
+      {
+        "text": "ece",
+        "intent": "placement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ece",
+            "entity": "branch"
+          }
+        ]
+      },
+      {
+        "text": "cse",
+        "intent": "placement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cse",
+            "entity": "branch"
+          }
+        ]
+      },
+      {
+        "text": "earth is round you know",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+      {
+        "text": "are you mad",
+        "intent": "abusive",
+        "entities": []
+      },
+      {
+        "text": "when is ipl",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+
+
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "exit",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "kk",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "what can you do for me?",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "who are you?",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "your name",
+        "intent": "myself",
+        "entities": []
+      },
+      {
+        "text": "who is this?",
+        "intent": "myself",
+        "entities": []
+      },
+      {
+        "text": "what do you do?",
+        "intent": "intro",
+        "entities": []
+      },
+	  {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see ya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": " admission in Btech?",
+        "intent": "new_admissionBtech"
+      },
+      {
+        "text": " admission  Btech",
+        "intent": "new_admissionBtech"
+      },
+      {
+        "text": " admission btech",
+        "intent": "new_admissionBtech"
+      },
+      {
+        "text": "  Btech admission",
+        "intent": "new_admissionBtech"
+      },
+      {
+        "text": "  btech admission",
+        "intent": "new_admissionBtech"
+      },
+      {
+        "text": "what is the procedure for admission in Btech?",
+        "intent": "new_admissionBtech"
+      },
+      {
+        "text": "what is the procedure for admission in Mtech?",
+        "intent": "new_admissionMtech"
+      },
+      {
+        "text": " admission in Mtech",
+        "intent": "new_admissionMtech"
+      },
+      {
+        "text": " admission  Mtech",
+        "intent": "new_admissionMtech"
+      },
+      {
+        "text": " admission  mtech",
+        "intent": "new_admissionMtech"
+      },
+      {
+        "text": " mtech",
+        "intent": "new_admissionMtech"
+      },
+      {
+        "text": "   mtech admission",
+        "intent": "new_admissionMtech"
+      },
+      {
+        "text": "what is the procedure for admission in Mca?",
+        "intent": "new_admissionBtech"
+      },
+      {
+        "text": "admission in Mca",
+        "intent": "new_admissionMca"
+      },
+      {
+        "text": "admission  Mca",
+        "intent": "new_admissionMca"
+      },
+      {
+        "text": "admission  mca",
+        "intent": "new_admissionMca"
+      },
+      {
+        "text": "mca admission",
+        "intent": "new_admissionMca"
+      },
+      {
+        "text": "what is the number of seats in mtech?",
+        "intent": "new_Mtechseats"
+      },
+      {
+        "text": " seats in mtech?",
+        "intent": "new_Mtechseats"
+      },
+      {
+        "text": "seats mtech",
+        "intent": "new_Mtechseats"
+      },
+      {
+        "text": "mtech seats",
+        "intent": "new_Mtechseats"
+      }
+
+    ]
+  }
+}
